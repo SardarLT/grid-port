@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.8rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+
+    &__links {
+        display: flex;
+
+        a {
+            color: #8a8a8a;
+        }
+
+        li:first-child {
+            margin-right: 2rem;         
+        }
+    }
+
+    &__link {
+        height: 2.2rem;
+        border-bottom: 1px solid transparent;
+        transition: border-bottom .5s;
+
+
+        &:hover {
+            a {color: black;}
+            border-bottom: 1px solid #000;
+        }
+
+        a {
+            transition: color .5s;
+        }
+    }
+}
+
+.active-nav-link {
+    a {
+        color: black;
+    }
+    border-bottom: 1px solid #000;
+}
+
