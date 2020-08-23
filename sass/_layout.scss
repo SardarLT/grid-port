@@ -1,0 +1,90 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(350px, 1fr));
+
+
+    &__item {
+        background-size: cover;
+        height: 350px;
+        width: 100%;
+        background-repeat: no-repeat;
+        padding: 0 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    &__item:hover {
+        .main__text {
+            transition: color 1s;
+            color: lightseagreen;
+        }
+
+    }
+
+    &__logo {
+        width: 50%;
+        margin-bottom: 2rem;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &__text {
+        font-size: 1.6rem;
+        text-align: center;
+        color: transparent;
+    }
+
+}
+
+.img1 {
+    background-image: url(../images/portfolio1.jpg);
+}
+
+.img2 {
+    background-image: url(../images/portfolio2.jpg);
+}
+
+.img3 {
+    background-image: url(../images/portfolio3.jpg);
+}
+
+.img4 {
+    background-image: url(../images/portfolio4.jpg);
+}
+
+.img5 {
+    background-image: url(../images/portfolio5.jpg);
+}
+
+.img6 {
+    background-image: url(../images/portfolio6.jpg);
+}
+
+.img7 {
+    background-image: url(../images/portfolio7.jpg);
+}
+
+.img8 {
+    background-image: url(../images/portfolio8.jpg);
+}
+
+.img9 {
+    background-image: url(../images/portfolio9.jpg);
+}
+
+.img10 {
+    background-image: url(../images/portfolio10.jpg);
+}
+
+.img11 {
+    background-image: url(../images/portfolio11.jpg);
+}
+
+.img12 {
+    background-image: url(../images/portfolio12.jpg);
+}
