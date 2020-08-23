@@ -98,3 +98,12 @@
 .img12 {
     background-image: url(../images/portfolio12.jpg);
 }
+
+@media (max-width: 900px) {
+
+    .main {
+        grid-template-columns: 1fr;
+
+    }
+
+}

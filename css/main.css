@@ -192,4 +192,11 @@ li {
 .img12 {
   background-image: url(../images/portfolio12.jpg);
 }
+
+@media (max-width: 900px) {
+  .main {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
 /*# sourceMappingURL=main.css.map */
